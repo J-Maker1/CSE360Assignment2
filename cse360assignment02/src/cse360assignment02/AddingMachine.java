@@ -1,6 +1,9 @@
 package cse360assignment02;
 
 public class AddingMachine {
+  public static void main(String[] args) {
+	  
+  }
   private int total;
   /*
    * AddingMachine will define all the functions for manipulating a value
