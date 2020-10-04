@@ -6,9 +6,10 @@ public class Tester {
 		myCalculator.add(4);
 		myCalculator.subtract(2);
 		myCalculator.add(5);
-		myCalculator.toString();
+		System.out.println(myCalculator.toString());
+		System.out.println(myCalculator.getTotal());
 		myCalculator.clear();
-		myCalculator.toString();
-		
+		System.out.println(myCalculator.toString());
+		System.out.println(myCalculator.getTotal());
 	}
 }
