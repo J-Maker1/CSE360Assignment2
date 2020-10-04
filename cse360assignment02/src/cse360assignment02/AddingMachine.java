@@ -8,7 +8,7 @@ public class AddingMachine {
    */
   public AddingMachine () {
     total = 0;  // not needed - included for clarity
-    str = "0";
+    str = "";
   }
   /*
    * @return should return the current total 
@@ -21,26 +21,26 @@ public class AddingMachine {
    */
   public void add (int value) {
 	  total += value;
-	  str += " + " + total;
+	  str += " + " + value;
   }
   /*
    * @param value the integer that will be subtracted from the total variable
    */
   public void subtract (int value) {
 	  total -= value;
-	  str += " - " + total;
+	  str += " - " + value;
   }
   /*
    * @return should return the order of operations
    */
   public String toString () {
-    return str + "\n";
+    return "0" + str + "\n";
   }
   /*
    * This method should clear the memory
    */
   public void clear() {
 	  total = 0;
-	  str = "0";
+	  str = "";
   }
 }
