@@ -6,6 +6,9 @@ public class Tester {
 		myCalculator.add(4);
 		myCalculator.subtract(2);
 		myCalculator.add(5);
+		myCalculator.toString();
+		myCalculator.clear();
+		myCalculator.toString();
 		
 	}
 }
