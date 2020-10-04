@@ -1,9 +1,6 @@
 package cse360assignment02;
 
 public class AddingMachine {
-  public static void main(String[] args) {
-	  
-  }
   private int total;
   /*
    * AddingMachine will define all the functions for manipulating a value
@@ -15,17 +12,19 @@ public class AddingMachine {
    * @return should return the current total 
    */
   public int getTotal () {
-    return 0;
+    return total;
   }
   /*
    * @param value the integer that will be added to the total variable
    */
   public void add (int value) {
+	  total += value;
   }
   /*
    * @param value the integer that will be subtracted from the total variable
    */
   public void subtract (int value) {
+	  total -= value;
   }
   /*
    * @return should return the order of operations
